@@ -114,3 +114,27 @@ nav {
   height: 176px;
   margin-bottom: 8px;
 }
+
+.section-quote {
+  background: var(--gray);
+  padding: 128px 0 96px 0;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote {
+  color: var(--dark-blue);
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-source {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 32px;
+}

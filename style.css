@@ -52,21 +52,21 @@ nav {
   gap: 32px;
 }
 
-.hero-left, .hero-image {
+.hero-text, .hero-image {
   flex: 1;
 }
 
-.hero-left h1 {
+.hero-text h1 {
   font-size: 48px;
   font-weight: 900;
 }
 
-.hero-left p {
+.hero-text p {
   color: var(--gray);
   margin-bottom: 12px;
 }
 
-.hero-left button {
+.hero-text button {
   color: var(--white);
   background: var(--blue);
   border: none;
@@ -117,7 +117,7 @@ nav {
 
 .section-quote {
   background: var(--gray);
-  padding: 128px 0 96px 0;
+  padding: 128px 32px 96px 32px;
 }
 
 .quote-container {
@@ -130,6 +130,7 @@ nav {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+  margin-bottom: 8px;
 }
 
 .quote-source {
@@ -137,4 +138,34 @@ nav {
   font-weight: 700;
   text-align: right;
   margin-right: 32px;
+}
+
+.section-cta {
+  padding: 96px 32px;
+}
+
+.cta {
+  color: var(--white);
+  background: var(--blue);
+  border-radius: 12px;
+  padding: 58px 128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.cta-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta button {
+  color: var(--white);
+  background: transparent;
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px 32px;
 }
